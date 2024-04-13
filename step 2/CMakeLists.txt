@@ -8,8 +8,8 @@ set(CMAKE_BUILD_TYPE Release)
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
 # you may need these 2 lines, and set your own paths
-# set(PYTHON_EXECUTABLE "your/python/path")
-# set(PYTHON_INCLUDE_DIRECTORY "your/python/include/path")
+set(PYTHON_EXECUTABLE "/Users/lht/anaconda3/bin/python3")
+set(PYTHON_INCLUDE_DIRECTORY "/Users/lht/anaconda3/include/python3.11/Python.h")
 
 add_subdirectory(extern/pybind11)
 

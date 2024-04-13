@@ -61,6 +61,6 @@ if __name__ == "__main__":
     start = time.time()
     PyMatrix.Dot(m, n, r)
     end = time.time()
-    print("PyMatrix multiplication time in naive python: ", (end - start) * 1000)
+    print(f"PyMatrix multiplication time in naive python: {(end - start) * 1000}ms")
 
-    print(mean(r.data))
+    # print(mean(r.data))
