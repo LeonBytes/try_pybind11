@@ -14,6 +14,15 @@ cmake ..
 make
 ```
 
+如果使用windows下的VS code
+第二步为：
+```
+mkdir build
+cd build
+cmake -G "MinGW Makefiles" ..
+make
+```
+
 第三步，在python中测试使用，进入build文件夹
 ```
 python
