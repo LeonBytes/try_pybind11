@@ -15,11 +15,12 @@ cmake --build . --config Release
 ```
 测试：
 在Try_pybind\build\Release中建立一个test_example.py
+```
 import example
 #测试 add 函数
 result = example.add(3, 4)
 print("The result of adding 3 and 4 is:", result)
-
+```
 
 取消在test_example.py中import example中的黄色警告：
 1.在 VS Code 的顶部菜单栏中，选择 文件（File）菜单，然后选择 首选项（Preferences）> 设置（Settings）。
