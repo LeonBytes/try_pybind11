@@ -16,8 +16,7 @@ cmake --build . --config Release
 测试：
 在Try_pybind\build\Release中建立一个test_example.py
 import example
-
-# 测试 add 函数
+#测试 add 函数
 result = example.add(3, 4)
 print("The result of adding 3 and 4 is:", result)
 
