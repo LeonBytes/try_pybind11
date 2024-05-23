@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 project(example)
-
-# you may need these 2 lines, and set your own paths
-# set(PYTHON_EXECUTABLE "your/python/path")
-# set(PYTHON_INCLUDE_DIRECTORY "your/python/include/path")
-
+set(PYTHON_EXECUTABLE "D:/Python/Python310/python.exe")
+set(PYTHON_INCLUDE_DIRECTORY "D:/Python/Python310/include")
 add_subdirectory(extern/pybind11)
 pybind11_add_module(example example.cpp)
