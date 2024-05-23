@@ -13,7 +13,7 @@ cd build
 cmake ..
 cmake --build . --config Release
 ```
-测试：
+测试1：
 在Try_pybind\build\Release中建立一个test_example.py
 ```
 import example
@@ -29,7 +29,7 @@ print("The result of adding 3 and 4 is:", result)
 点击添加按钮（通常是一个加号），然后输入或粘贴路径 E:/Microsoft VS Code__workspace/Try_pybind/build/Release。
 
 
-第三步，在python中测试使用，进入build文件夹
+测试2：进入build文件夹
 ```
 python
 import example
