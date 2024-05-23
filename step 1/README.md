@@ -11,18 +11,9 @@ git clone https://github.com/pybind/pybind11.git extern/pybind11
 mkdir build
 cd build
 cmake ..
-make
+cmake --build . --config Release
 ```
 
-如果使用windows下的VS code
-第二步为：
-```
-mkdir build
-cd build
-cmake -G "MinGW Makefiles" ..
-make
-```
-make这里需要说明，安装的是MInGW，将 mingw32-make.exe 重命名为 make.exe
 
 第三步，在python中测试使用，进入build文件夹
 ```
